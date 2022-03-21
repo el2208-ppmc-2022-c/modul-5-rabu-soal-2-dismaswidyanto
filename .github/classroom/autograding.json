@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "37000\r\n5000\r\n2",
+      "output": "Jumlah maksimal minuman: 13 botol\r\nSisa uang: 2000\r\nSisa botol: 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "25000\r\n2000\r\n5",
+      "output": "Jumlah maksimal minuman: 14 botol\r\nSisa uang: 1000\r\nSisa botol: 4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "3000\r\n5000\r\n3",
+      "output": "Uang anda tidak cukup untuk membeli apapun!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "30000\r\n3000\r\n3",
+      "output": "Jumlah maksimal minuman: 14 botol\r\nTidak ada sisa uang\r\nSisa botol: 2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "50000\r\n4000\r\n4",
+      "output": "Jumlah maksimal minuman: 15 botol\r\nSisa uang: 2000\r\nSisa botol: 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "40000\r\n5000\r\n4",
+      "output": "Jumlah maksimal minuman: 10 botol\r\nTidak ada sisa uang\r\nSisa botol: 2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "39000\r\n6000\r\n3",
+      "output": "Jumlah maksimal minuman: 8 botol\r\nSisa uang: 3000\r\nSisa botol: 2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "40000\r\n4000\r\n2",
+      "output": "Jumlah maksimal minuman: 19 botol\r\nTidak ada sisa uang\r\nSisa botol: 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "42000\r\n4000\r\n3",
+      "output": "Jumlah maksimal minuman: 14 botol\r\nSisa uang: 2000\r\nSisa botol: 2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "5000\r\n8000\r\n5",
+      "output": "Uang anda tidak cukup untuk membeli apapun!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
